@@ -38,7 +38,7 @@ ul{
 #page-index header{
     height: 100vh;
     display: flex;
-    background: url(/src/image/header-bg.png) center;
+    background: url(../../src/image/header-bg.png) center;
     background-size: cover;
 }
 #page-index .container{
@@ -315,8 +315,9 @@ ul{
 /* portfolio */
 
 #page-index #portfolio{
-    background-image: url("/src/image/Portfolio-bg.jpg");
+    background-image: url("../../src/image/Portfolio-bg.jpg");
     position: relative;
+    background-size: cover;
 }
 #page-index #portfolio::after{
     content: "";

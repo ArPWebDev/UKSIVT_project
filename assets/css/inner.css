@@ -1,7 +1,7 @@
 .inner-page header{
     margin-top: 120px;
     height: 267px;
-    background: url("/src/image/Inner-portfolio-bg.jpg") center;
+    background: url("../../src/image/Inner-portfolio-bg.jpg") center;
     background-size: cover;
     display: flex;
     position: relative;
