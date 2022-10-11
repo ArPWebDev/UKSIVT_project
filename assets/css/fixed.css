@@ -1,0 +1,93 @@
+menu.menu-top{
+    top:0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    
+    height: 120px;
+    margin: 0;
+    display: flex;
+}
+.inner-page menu.menu-top{
+    background-color: var(--bg1);
+}
+.menu-scroll.menu-top{
+    background: linear-gradient(98deg, #13d68e -0.63%, #0ad8d8 98.73%);
+    height: 60px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+}
+menu.menu-top .container{
+    margin-top: 35px;
+}
+.menu-scroll.menu-top .container{
+    margin: auto;
+}
+menu.menu-top .menu-socials{
+    font-size: 18px;
+}
+menu.menu-top .menu-socials a{
+    margin-right: 10px;
+}
+.menu-top .menu-elements{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.menu-top .menu-burger{
+    background: url(/src/image/burger.png);
+    width: 40px;
+    height: 18px;
+    cursor: pointer;
+}
+menu.menu-all{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2000;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+    display: none;
+}
+menu.menu-all ul{
+    margin: auto;
+}
+menu.menu-all li{
+    text-align: center;
+    margin-bottom: 20px;
+}
+menu.menu-all ul a{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+menu.menu-all ul a:hover{
+    color: var(--main-green);
+}
+menu.menu-all .close{
+    background: url(/src/image/close.png);
+    width: 58px;
+    height: 58px;
+    right: 40px;
+    top: 30px;
+    position: absolute;
+    cursor: pointer;
+}
+.go-top{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background: linear-gradient(98deg, #13d68e -0.63%, #0ad8d8 98.73%);
+    border-radius: 50%;
+    display: flex;
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.go-top i{
+    margin: auto;
+}    
